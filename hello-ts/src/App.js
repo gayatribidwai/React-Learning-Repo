@@ -7,7 +7,7 @@ import UseContext from './Components/UseContext';
 import UseReducer from './Components/UseReducer';
 import Login from './Components/Login';
 import Register from './Components/Register';
-
+import UseRef from './Components/UseRef';
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
         <Register/>
       </div>
       <UseReducer/>
+      <UseRef/>
     </div>
   );
 }
