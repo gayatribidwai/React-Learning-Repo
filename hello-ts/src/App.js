@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import UseEffect from './Components/UseEffect';
 import MyComponent from './Components/MyComponent';
 import UseContext from './Components/UseContext';
+import UseReducer from './Components/UseReducer';
 import Login from './Components/Login';
 import Register from './Components/Register';
 
@@ -18,6 +19,7 @@ function App() {
         <Login/>
         <Register/>
       </div>
+      <UseReducer/>
     </div>
   );
 }
