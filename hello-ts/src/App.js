@@ -9,6 +9,7 @@ import Login from './Components/Login';
 import Register from './Components/Register';
 import UseRef from './Components/UseRef';
 import UseLayoutEffect from './Components/UseLayoutEffect';
+import UseMemo from './Components/UseMemo';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <UseReducer/>
       <UseRef/>
       <UseLayoutEffect/>
+      <UseMemo/>
     </div>
   );
 }
