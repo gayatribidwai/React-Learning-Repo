@@ -35,10 +35,12 @@ export default function UseMemo() {
 
   return (
     <div>
-      <h1>Use Memo Ho ok</h1>
+      <h1>Use Memo Hook</h1>
       <ul>
         {
-            memoriseFilterProductsByPrice(data).map(item=> <li>{item.title}</li>) 
+            filterProductsByPrice(data).map(item=> <li>{item.title}</li>) 
+            // try this 
+            // memoriseFilterProductsByPrice(data).map(item=> <li>{item.title}</li>) 
         }
       </ul>
       <button onClick={()=> setTheme(!theme)}>Toggle Theme</button>

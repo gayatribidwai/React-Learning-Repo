@@ -10,6 +10,7 @@ import Register from './Components/Register';
 import UseRef from './Components/UseRef';
 import UseLayoutEffect from './Components/UseLayoutEffect';
 import UseMemo from './Components/UseMemo';
+import UseCallback from './Components/UseCallback';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <UseRef/>
       <UseLayoutEffect/>
       <UseMemo/>
+      <UseCallback/>
     </div>
   );
 }
