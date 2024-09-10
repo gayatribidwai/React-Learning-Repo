@@ -8,6 +8,7 @@ import UseReducer from './Components/UseReducer';
 import Login from './Components/Login';
 import Register from './Components/Register';
 import UseRef from './Components/UseRef';
+import UseLayoutEffect from './Components/UseLayoutEffect';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       </div>
       <UseReducer/>
       <UseRef/>
+      <UseLayoutEffect/>
     </div>
   );
 }
